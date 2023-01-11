@@ -2,6 +2,12 @@
 module.exports = {
   content: ["./src/**/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      mobileG: "460px",
+      tablet: "640px",
+      laptop: "1024px",
+      desktop: "1280px",
+    },
     extend: {
       colors: {
         brand: "#581fbd",

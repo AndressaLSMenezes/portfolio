@@ -3,10 +3,10 @@
 // import waveThree from "../../Assets/images/wave(3).svg";
 
 interface Props {
-    color: string
+  color: string;
 }
 
-const Waves = ({color}: Props) => {
+const Waves = ({ color }: Props) => {
   return (
     <div className="w-full sticky bottom-0 h-32">
       {/* <img src={waveThree} alt="" className="waves animate-waves-1" />
@@ -16,7 +16,7 @@ const Waves = ({color}: Props) => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
-        className="waves animate-waves-1"
+        className="absolute bottom-2 animate-waves-1"
       >
         <path
           fill={color}
@@ -28,7 +28,7 @@ const Waves = ({color}: Props) => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
-        className="waves bottom-0"
+        className="absolute bottom-3 animate-waves-2"
       >
         <path
           fill={color}
@@ -40,7 +40,7 @@ const Waves = ({color}: Props) => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 310"
-        className="waves bottom-0"
+        className="absolute bottom-0"
       >
         <path
           fill={color}

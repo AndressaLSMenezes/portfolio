@@ -2,7 +2,7 @@ import Waves from "../Waves";
 
 const ProjectSection = () => {
   return (
-    <section className="bg-[#341660] w-full min-h-screen relative">
+    <section className="bg-[#341660] w-full min-h-screen relative col-center justify-between">
         <div className="w-full h-[85vh]">
             <h2>Meu Projetos</h2>
             <ul></ul>

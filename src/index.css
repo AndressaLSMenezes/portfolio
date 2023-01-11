@@ -31,7 +31,7 @@
   }
 
   body {
-    @apply leading-none bg-brand;
+    @apply leading-none bg-blue-gray-900;
   }
 
   ol,
@@ -63,9 +63,5 @@
 
   .btn-header {
     @apply text-slate-100 hover:text-white text-base font-medium;
-  }
-
-  .waves {
-    @apply absolute bottom-0;
   }
 }
