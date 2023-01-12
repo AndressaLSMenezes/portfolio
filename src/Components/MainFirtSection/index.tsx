@@ -5,7 +5,7 @@ import myPhoto from "../../Assets/images/myPhoto.jpg";
 const FirstSection = () => {
   return (
     <section className="col-center w-full pt-28  min-h-[85vh] relative text-white justify-between bg-blue-gray-900">
-      <div className=" text-xl col-center gap-8 font-semibold w-11/12 sm:flex-row-reverse sm:justify-around ">
+      <div className=" text-xl col-center gap-8 font-semibold w-11/12 sm:flex-row-reverse sm:justify-around">
         <figure className="w-36 h-36 sm:w-60 sm:h-60 overflow-hidden rounded-full">
           <img src={myPhoto} alt="Minha foto" />
         </figure>
