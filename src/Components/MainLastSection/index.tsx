@@ -3,7 +3,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 const LastSection = () => {
   return (
-    <section className="bg-blue-gray-900 w-full text-white font-semibold col-center">
+    <section className="bg-blue-gray-900 w-full text-white font-semibold col-center" id="contacts">
       <h2 className=" text-2xl mt-24">Meus Contatos</h2>
       <div className="col-center my-16 gap-5">
         <a

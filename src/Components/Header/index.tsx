@@ -4,6 +4,8 @@ import { IoClose } from "react-icons/io5";
 import logo from "../../Assets/images/logo.png";
 import { useState } from "react";
 
+import resume from "../../Assets/pdf";
+
 const Header = () => {
   const [menuActiveMobile, setMenuActiveMobile] = useState(false);
 
@@ -39,11 +41,21 @@ const Header = () => {
                 : "nav-div-mobile md:nav-div-desktop"
             }
           >
-            <button className="btn-header">SOBRE MIM</button>
-            <button className="btn-header">TECNOLOGIAS</button>
-            <button className="btn-header">PROJETOS</button>
-            <button className="btn-header">CONTATOS</button>
-            <button className="btn-header">BAIXAR CV</button>
+            <a href="#start" className="btn-header">
+              SOBRE MIM
+            </a>
+            <a href="#technology" className="btn-header">
+              TECNOLOGIAS
+            </a>
+            <a href="#projects" className="btn-header">
+              PROJETOS
+            </a>
+            <a href="#contacts" className="btn-header">
+              CONTATOS
+            </a>
+            <a href={resume} rel="noreferrer" target="_blank" className="btn-header">
+              BAIXAR CV
+            </a>
           </div>
         </nav>
       </div>

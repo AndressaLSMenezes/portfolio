@@ -14,7 +14,10 @@ import Waves from "../Waves";
 
 const SecondSection = () => {
   return (
-    <section className="col-center justify-between bg-brand w-full min-h-screen">
+    <section
+      className="col-center justify-between bg-brand w-full min-h-screen"
+      id="technology"
+    >
       <div className="col-center justify-center gap-10 w-full relative h-5/6">
         <h2 className="text-3xl font-bold">Tech Stacks</h2>
 
