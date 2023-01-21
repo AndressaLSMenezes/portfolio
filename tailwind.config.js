@@ -18,6 +18,8 @@ module.exports = {
         "waves-2": "wave2 3s ease-in-out infinite alternate",
         "waves-3": "wave3 3s ease-in-out infinite alternate",
         "wave-hand": "wavehand 2s ease-in-out infinite",
+        "scale-Up":
+          "up duration-500 ease-[(0.165, 0.840, 0.440, 1.000)] forwards delay-500",
       },
       keyframes: {
         wave1: {
@@ -38,6 +40,14 @@ module.exports = {
           "50%": { transform: "rotate(10.0deg)" },
           "60%": { transform: "rotate(0.0deg)" },
           "100%": { transform: "rotate(0.0deg)" },
+        },
+        up: {
+          "0%": "scale-y-0 translate-y-96",
+          "50%": "scale-y-50 translate-y-72",
+          "75%": "scale-y-75 translate-y-56",
+          "90%": "scale-y-90 translate-y-36",
+
+          "100%": "scale-y-100 translate-y-0",
         },
       },
     },

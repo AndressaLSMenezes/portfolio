@@ -7,6 +7,7 @@ import SecondSection from "../../Components/MainSecondSection";
 
 import LastSection from "../../Components/MainLastSection";
 import { useUserContext } from "../../Contexts";
+import AboutMe from "../../Components/MainAboutMe";
 
 const LandingPages = () => {
   const { repositories } = useUserContext();
@@ -18,8 +19,9 @@ const LandingPages = () => {
   return (
     <>
       <Header />
-      <main className="col-center w-screen text-white">
+      <main className="col-center w-screen text-white delay-500">
         <FirstSection />
+        <AboutMe />
         <SecondSection />
         <ProjectSection />
         <LastSection />

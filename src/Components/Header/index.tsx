@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 import logo from "../../Assets/images/logo.png";
 import { useState } from "react";
 
-import resume from "../../Assets/pdf";
+import resume from "../pdf";
 
 const Header = () => {
   const [menuActiveMobile, setMenuActiveMobile] = useState(false);
@@ -42,6 +42,9 @@ const Header = () => {
             }
           >
             <a href="#start" className="btn-header">
+              INICIO
+            </a>
+            <a href="#aboutMe" className="btn-header">
               SOBRE MIM
             </a>
             <a href="#technology" className="btn-header">

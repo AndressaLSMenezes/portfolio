@@ -1,46 +1,138 @@
-# Getting Started with Create React App
+<div align="center">
+<img alt="Artesanato" src="https://github.com/Reciclarte-Kenzie/reciclarte/blob/develop/src/assets/imgs/logoHeader.png" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+<h3>
+  MVP - RECICLARTE
+</h3>
+<p>Uma aplicação web onde é possível criar e buscar ideias de projeto DIY (Do it Yourself) a partir dos materiais recicláveis.</p>
+</div>
 
-## Available Scripts
+<p align="center">
+    <img alt="Badge indicando que o projeto foi criado em janeiro de 2023" src="https://img.shields.io/badge/Data%20de%20cria%C3%A7%C3%A3o-Janeiro%2F2023-blue">
+    <img alt="Badge indicando que o status do projeto está 'Em andamento'" src="https://img.shields.io/badge/Status-Em andamento-blue">
+</p>
 
-In the project directory, you can run:
+<h2 id="Como acessar"> :round_pushpin: Guia</h2>
 
-### `yarn start`
+• <a href="#Como acessar">Como acessar</a>
+<br>
+• <a href="#descricao">Descrição</a>
+<br>
+• <a href="#login">Como acessar o dashboard de admin?</a>
+<br>
+• <a href="#funcionalidades">Funcionalidades</a>
+<br>
+• <a href="#interacao">Como interagir com o projeto?</a>
+<br>
+• <a href="#doc">Documentação da API</a>
+<br>
+• <a href="#Bibliotecas">Bibliotecas</a>
+<br>
+• <a href="#Ferramentas">Ferramentas</a>
+<br>
+• <a href="#Desenvolvedores">Pessoas contribuidoras</a>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 id="Como acessar"> :computer_mouse: Como acessar?</h2>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a href="https://reciclarte-rho.vercel.app/">Para conferir e utilizar o projeto clique aqui</a>.
 
-### `yarn test`
+<h2 id="descricao">:pencil2: Descrição</h2>
+Descartamos, diariamente, materiais que poderiam ser reaproveitados para produzir novos objetos.
+Essa situação geralmente ocorre por enxergarmos tais materiais como inúteis quando não podem mais satisfazer seu propósito inicial, por exemplo: para que serve uma embalagem de picolé, depois que já o consumimos?
+Tais materiais podem ser comumente reutilizados por meio do artesanato, no entanto, por vezes não temos ideias criativas de projetos nos quais eles poderiam ser empregados. E nessa aplicação web é possível buscar ideias de projeto DIY (Do it Yourself) a partir dos materiais que eles requerem para que sejam executados.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2 id="Bibliotecas">:books: Bibliotecas utilizadas</h2>
 
-### `yarn build`
+- [x] React
+- [x] Styled components
+- [x] Context API
+- [x] React-hook-form
+- [x] Yup
+- [x] React toastfy
+- [x] React Router DOM
+- [x] Axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2 id="Ferramentas">:wrench: Ferramentas utilizadas</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] Jira
+- [x] VS Code
+- [x] Notion
+- [x] Linktree
+- [x] Github
+- [x] JSON-Server-Auth
+- [x] Typescript
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2 id="funcionalidades">:hammer: Funcionalidades</h2>
 
-### `yarn eject`
+### Gerais
+- Consumo de uma Fake API para efetuar os envios e recebimentos de dados
+- Cadastro e login de usuários
+- Cadastro de ideias de projeto DIY na plataforma
+- Busca por ideias a partir dos materiais
+- Filtragem de ideais a partir das suas categorias
+- Ordenação das ideias a partir: 
+- Do nome
+- Data de inclusão na plataforma
+- Estimativa de preço
+- Classificação dos usuários
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Usuário deslogado:
+- Listagem de todas as ideias
+- Busca por ideias pelo nome, materiais, categorias, nível de dificuldade e custo estimado máximo
+- Ordenação de ideias com base no custo estimado ou com base no nível de dificuldade
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usuário logado:
+- Cadastramento de ideias
+- Edição das ideias cadastradas do usuário logado
+- Exclusão das ideias cadastradas do usuário logado
+- Visualizar o próprio perfil
+- Visualizar o perfil de outros usuários
+- Editar informações pessoais
+- Visualizar o próprio perfil
+- Ver as próprias ideias
+- Ver as ideias de outros usuários
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h2 id="login">:bust_in_silhouette: Como acessar página profile?</h2>
+É preciso efetuar o login com os dados abaixo:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Email: admin@mail.com
+- Senha: email
 
-## Learn More
+<h2 id="interacao">:computer: Como interagir com o projeto? </h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Repositório da API
+ * <a href="https://github.com/Reciclarte-Kenzie/reciclarte-server/tree/develop">Clique aqui</a> para acessar o repositório.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ >Interagir com o site por meio<a href="https://reciclarte-rho.vercel.app/"> da Vercel</a>.
+
+<h2 id="doc">:page_facing_up: Documentação da API </h2>
+<a href="https://github.com/Reciclarte-Kenzie/reciclarte-server/blob/develop/README.md">Clique aqui para acessar a documentação</a>.
+
+<h2 id="Desenvolvedores">:construction_worker: Pessoas contribuidoras</h2>
+
+<a href="https://github.com/freitassneto">
+  <img width="120px" src="https://avatars.githubusercontent.com/u/109801407?v=4">
+</a>
+
+<a href="https://github.com/CToH10">
+  <img width="120px" src="https://avatars.githubusercontent.com/u/108496850?v=4">
+</a>
+ 
+<a href="https://github.com/Danielle-Luz">
+  <img width="120px" src="https://avatars.githubusercontent.com/u/99164019?v=4">
+</a>
+ 
+<a href="https://github.com/ThiagoBettinRamos">
+  <img width="120px" src="https://avatars.githubusercontent.com/u/109983481?v=4">
+</a>
+ 
+<a href="https://github.com/tulio-albuquerque">
+  <img width="120px" src="https://avatars.githubusercontent.com/u/1772190?v=4">
+</a>
+ 
+<a href="https://github.com/CarolinaOlivaCruz">
+  <img width="120px" src="https://avatars.githubusercontent.com/u/78989471?v=4">
+</a>
