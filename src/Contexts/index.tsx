@@ -45,7 +45,7 @@ export const AuthProvider = ({ children }: IUserProvidersProps) => {
         "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-hamburgueria-da-kenzie-Andressa",
       link: "https://hamburgueria-three-plum.vercel.app/",
       about:
-        "É um e-commerce de roupas desenvolvido para o projeto final do modulo 1 usando somente HTML, CSS e JS sem nehum framework",
+        "É uma simulação delivery de fast-food onde é possível pesquisar o produto por categoria e nome, além de adicionar ao carrinho e receber o valor total da compra",
       techs: ["HTML", "CSS3", "JavaScript"],
 
       stack: "FrontEnd",
@@ -57,8 +57,8 @@ export const AuthProvider = ({ children }: IUserProvidersProps) => {
         "https://github.com/AndressaLSMenezes/react-entrega-kenzie-hub-andressa",
       link: "https://react-entrega-kenzie-hub-andressa.vercel.app/",
       about:
-        "É um e-commerce de roupas desenvolvido para o projeto final do modulo 1 usando somente HTML, CSS e JS sem nehum framework",
-      techs: ["TypeScript", "React", "Styled Components", "..."],
+        "Um site onde adicionar, editar e excluir tecnologias.",
+      techs: ["TypeScript", "React", "Styled Components", "Axios", "..."],
 
       stack: "FrontEnd",
     },
@@ -68,7 +68,7 @@ export const AuthProvider = ({ children }: IUserProvidersProps) => {
       urlGithub:
         "https://github.com/Kenzie-Academy-Brasil-Developers/m4-entrega-sprint-3-andressa",
       link: "",
-      about: "",
+      about: "Um serviço de back-end responsável por gerenciar produtos e suas categorias",
       techs: ["JavaScript", "NodeJS", "expressJS", "ORM", "SQL", "PostgreSQL"],
 
       stack: "BackEnd",

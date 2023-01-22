@@ -81,7 +81,7 @@
   }
 
   .nav-div-mobile {
-    @apply absolute top-20 right-0 w-screen py-7 flex flex-col items-center justify-center gap-5 font-bold text-xl text-slate-50 bg-ocupacity;
+    @apply absolute top-20 right-0 w-screen h-screen col-center gap-5 font-bold text-xl text-slate-50 bg-blue-gray-900 z-50 pointer-events-auto;
   }
 
   .logo {
