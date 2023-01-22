@@ -5,16 +5,21 @@ interface IProps {
 }
 
 const LiProject = ({ project }: IProps) => {
-  const { name, stack, image, about, techs } = project;
+  const { name, stack, image, about, techs, urlGithub, link } = project;
 
   return (
-    <li className=" col-center w-10/12 pb-10 max-w-xs bg-ocupacity rounded-2xl gap-5">
+    <li className="col-center w-10/12 pb-10 max-w-xs bg-ocupacity rounded-2xl gap-5">
       <figure className="overflow-hidden w-full h-40 rounded-t-2xl flex items-start justify-center">
-        <img src={image} alt={name} className="w-full"/>
+        <img src={image} alt={name} className="w-full" />
       </figure>
-      <div className="w-11/12 col-left gap-3">
+      <div className="w-11/12 col-left gap-3 h-56">
         <h3 className=" text-xl font-semibold text-slate-100">{name}</h3>
-        <p className={"text-base rounded-md w-20 text-center font-semibold " + (stack.toLowerCase() === "frontend" ? "bg-green-700" : "bg-red-700")}>
+        <p
+          className={
+            "text-base rounded-md w-20 text-center font-semibold " +
+            (stack.toLowerCase() === "frontend" ? "bg-green-700" : "bg-red-700")
+          }
+        >
           {stack}
         </p>
 
@@ -24,6 +29,22 @@ const LiProject = ({ project }: IProps) => {
           ))}
         </div>
         <p className="text-ellipsis">{about}</p>
+      </div>
+
+      <div className="flex justify-center items-center gap-5 w-11/12 z-30">
+        {link && (
+          <a href={link} rel="noreferrer" target="_blank" className="btn-card">
+            Demo
+          </a>
+        )}
+        <a
+          href={urlGithub}
+          rel="noreferrer"
+          target="_blank"
+          className="btn-card"
+        >
+          GitHub
+        </a>
       </div>
     </li>
   );

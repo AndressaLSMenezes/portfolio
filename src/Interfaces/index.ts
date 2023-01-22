@@ -9,7 +9,5 @@ export interface IProject {
 }
 
 export interface IUserContext {
-  repositories: any;
-  gitHubData(): void;
   projects: IProject[];
 }

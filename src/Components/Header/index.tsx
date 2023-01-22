@@ -1,4 +1,3 @@
-import "./index.css";
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import logo from "../../Assets/images/logo.png";
@@ -34,7 +33,7 @@ const Header = () => {
             </button>
           )}
 
-          <div
+          <nav
             className={
               !menuActiveMobile
                 ? "hidden md:nav-div-desktop"
@@ -59,7 +58,7 @@ const Header = () => {
             <a href={resume} rel="noreferrer" target="_blank" className="btn-header">
               BAIXAR CV
             </a>
-          </div>
+          </nav>
         </nav>
       </div>
     </header>

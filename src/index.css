@@ -71,4 +71,24 @@
   .row-center {
     @apply flex items-center justify-center;
   }
+
+  .btn-header {
+    @apply w-32 text-center text-gray-200 hover:text-white text-base font-medium hover:font-semibold;
+  }
+
+  .nav-div-desktop {
+    @apply relative inset-0 w-[80%] h-full flex flex-row justify-end gap-5 py-0;
+  }
+
+  .nav-div-mobile {
+    @apply absolute top-20 right-0 w-screen py-7 flex flex-col items-center justify-center gap-5 font-bold text-xl text-slate-50 bg-ocupacity;
+  }
+
+  .logo {
+    @apply w-20;
+  }
+
+  .btn-card {
+    @apply w-1/2 h-10 flex items-center justify-center text-base font-semibold bg-slate-700 hover:bg-brand rounded-lg;
+  }
 }

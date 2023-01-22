@@ -5,7 +5,7 @@ import myPhoto from "../../Assets/images/myPhoto.jpg";
 const FirstSection = () => {
   return (
     <section
-      className="col-center w-full pt-32 min-h-screen relative text-white justify-between bg-[#18181B]"
+      className="col-center w-full pt-32 min-h-screen relative text-white justify-between bg-blue-gray-900"
       id="start"
     >
       <div className="w-11/12 pb-10 col-center mb-14 relativejustify-between">
