@@ -25,7 +25,7 @@
 
 <h2 id="howToAccess">🖱️Como acessar?</h2>
 
-<a href="https://reciclarte-rho.vercel.app/">Para conferir e utilizar o projeto clique aqui</a>.
+<a href="https://portfolio-one-rho-95.vercel.app/">Para conferir e utilizar o projeto clique aqui</a>.
 
 <h2 id="AboutTheProject">✏️ Sobre o projeto</h2>
 
