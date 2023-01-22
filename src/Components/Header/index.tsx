@@ -38,7 +38,7 @@ const Header = () => {
                 : "nav-div-mobile md:nav-div-desktop"
             }
           >
-            <a href="#start" className="btn-header mt-8">
+            <a href="#start" className="btn-header mt-8 sm: mt-0">
               INICIO
             </a>
             <a href="#aboutMe" className="btn-header">
