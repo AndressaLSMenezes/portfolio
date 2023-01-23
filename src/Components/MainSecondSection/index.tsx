@@ -18,7 +18,7 @@ const SecondSection = () => {
       id="technology"
     >
       <div className="col-center justify-center gap-10 w-full relative h-5/6">
-        <h2 className="text-3xl font-bold">Tecnologias Que Eu Sei</h2>
+        <h2 className="text-3xl font-bold">Hard Skils</h2>
 
         <figure className="flex flex-wrap justify-center gap-4 mb-24">
           <img src={git} alt="Logo Git" className="logo" />

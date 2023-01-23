@@ -9,7 +9,7 @@ const AboutMe = () => {
       <h2 className="font-bold text-4xl mb-16 sm:mb-none">Sobre mim</h2>
       <div className="col-center pb-28 mb-28 font-medium text-lg text-center w-10/12 md:w-1/2 gap-5">
         <p>
-          Meu nome é Andressa, tenho 19 anos e sou de angra dos Reis no Rio de
+          Meu nome é Andressa, tenho 19 anos e sou de Angra Dos Reis no Rio de
           Janeiro.
         </p>
         <p>
